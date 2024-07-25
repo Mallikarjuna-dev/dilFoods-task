@@ -19,12 +19,3 @@ export const removeFromCart = async (productId, token) => {
     });
     return response.data;
 };
-
-export const clearCart = async (token) => {
-    const response = await axios.delete(API_URL, {
-        headers: {
-            Authorization: `Bearer ${token}`,
-        },
-    });
-    return response.data;
-};

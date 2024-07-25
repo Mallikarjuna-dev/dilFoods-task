@@ -37,7 +37,7 @@ const Home = () => {
   return (
     <Container>
       <Typography variant="h4" gutterBottom>
-        Product Marketplace
+        Product Market
       </Typography>
       <Grid container spacing={4}>
         {products.map((product) => (

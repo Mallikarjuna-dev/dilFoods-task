@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/product/:id' element={<ProductPage />} />
+        <Route path='/product' element={<ProductPage />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
         <Route path='/cart' element={<Cart />} />

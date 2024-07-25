@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/auth';
+const API_URL = 'https://productapp-json-server.onrender.com/auth';
 
 export const login = async (email, password) => {
     const res = await axios.post(`${API_URL}/login`, { email, password });

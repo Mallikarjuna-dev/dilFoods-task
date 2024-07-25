@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/cart';
+const API_URL = 'https://productapp-json-server.onrender.com/cart';
 
 export const addToCart = async (product, token) => {
     const response = await axios.post(API_URL, product, {

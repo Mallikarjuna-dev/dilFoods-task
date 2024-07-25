@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/wishlist';
+const API_URL = 'https://productapp-json-server.onrender.com/wishlist';
 
 export const addToWishlist = async (product, token) => {
     const response = await axios.post(API_URL, product, {
